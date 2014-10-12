@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>testId</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Urinary Tract Infection</string>
+		<key>shortDescription</key>
+		<string>Submit a urine sample to test for urinary tract infection.</string>
+		<key>longDescription</key>
+		<string>Urinary Tract Infection is associated with symptoms of abdominal pain as well as pain or burning during urination. For this test, submitting a urine sample will enable the system to measure nitrite and leukocyte levels in your urine. High levels of nitrates and leukocytes may indicate a presence of infection.</string>
+		<key>url</key>
+		<string>http://www.apple.com</string>
+		<key>imagePath</key>
+		<string>yellow</string>
+		<key>stepImages</key>
+		<array>
+			<string>urine</string>
+			<string>urine_2</string>
+			<string>urine_3</string>
+		</array>
+		<key>stepText</key>
+		<array>
+			<string>Take out the urine sample cup.
+</string>
+			<string>Use dropper to absorb one drop of the sample. 
+</string>
+			<string>Deposit drop in hole on the top of the cartridge/lab box. 
+</string>
+		</array>
+	</dict>
+	<dict>
+		<key>testId</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Cholesterol</string>
+		<key>shortDescription</key>
+		<string>Submit a small drop of blood to test for LDL cholesterol levels.</string>
+		<key>longDescription</key>
+		<string>High levels of LDL cholesterol  can be linked to heart disease, often without causing any symptoms. For this test, submitting a small drop of blood from your finger will allow the system to screen for high levels of LDL cholesterol.</string>
+		<key>url</key>
+		<string>http://www.apple.com</string>
+		<key>imagePath</key>
+		<string>red</string>
+		<key>stepImages</key>
+		<array>
+			<string>stepImage1.png</string>
+			<string>stepImage2.png</string>
+		</array>
+		<key>stepText</key>
+		<array>
+			<string>1. Slide the cholesterol cartridge into the Lab Box.</string>
+			<string>2. Wipe your finger with the alcohol pad.</string>
+			<string>3. Press the lancet to one of your fingertips. You will feel a sting.</string>
+			<string>4. Wipe away the first drop of blood with the alcohol pad.</string>
+			<string>5. Touch the end of the tube to your finger.</string>
+			<string>6. Empty the tube into the cholesterol cartridge by squeezing the tube.</string>
+			<string>7. Your phone will display the results in two minutes.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>testId</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>Strep Infection</string>
+		<key>shortDescription</key>
+		<string>Submit a throat swab sample to test for strep throat.</string>
+		<key>longDescription</key>
+		<string>Strep throat is associated with pain in the throat region and fever. For this test , submitting a throat swab sample will enable the system to determine if streptoccal antigens are present. If these antigens are present you may have a strep bacterial infection in your throat.</string>
+		<key>url</key>
+		<string>http://www.google.com</string>
+		<key>imagePath</key>
+		<string>blue</string>
+		<key>stepImages</key>
+		<array>
+			<string>stepImage1.png</string>
+			<string>stepImage2.png</string>
+		</array>
+	</dict>
+	<dict>
+		<key>testId</key>
+		<integer>3</integer>
+		<key>name</key>
+		<string>Mononucleosis Infection</string>
+		<key>shortDescription</key>
+		<string>Submit a small drop of blood to test for Mononucleosis.</string>
+		<key>longDescription</key>
+		<string>Mononucleosis is associated with fever, extreme fatigue, sore throat, and other flu like symptoms that can last for weeks to months. For this test, submitting  a small drop of blood from your finger can allow the system to determine if infectious  mononucleosis heterophile anitbodies are present in your blood. If these antibodies are present you may have this viral mono infection.</string>
+		<key>url</key>
+		<string>http://www.google.com</string>
+		<key>imagePath</key>
+		<string>green</string>
+		<key>stepImages</key>
+		<array>
+			<string>stepImage1.png</string>
+			<string>stepImage2.png</string>
+		</array>
+		<key>stepText</key>
+		<array>
+			<string>1. Slide the mono/strep cartridge into the Lab Box.</string>
+			<string>2. Wipe your finger with the alcohol pad.</string>
+			<string>3. Hold the lancet to one of your fingertips. You will feel a sting.</string>
+			<string>4. Wipe away the first drop of blood with the alcohol pad.</string>
+			<string>5. Touch the end of the tube to your finger.</string>
+			<string>6. Empty the tube into the mono/strep cartridge by squeezing the tube.</string>
+			<string>6. Use dropper to apply 6 drops to both inputs on the UTI cartridge.</string>
+			<string>7. Your phone will display the results in two minutes.</string>
+		</array>
+	</dict>
+	<dict>
+		<key>testId</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Sleep Apnea</string>
+		<key>shortDescription</key>
+		<string>Wear the vitals monitor while you sleep to test for sleep apnea.</string>
+		<key>longDescription</key>
+		<string>Sleep Apnea is characterized by by cessations in breathing during sleep and is sometimes associated with snoring during the night and drowsiness during the day. These cessations may go unnoticed for many years. By wearing the vitals monitor during the night, our system can count your breaths during the night to determine if you have sleep apnea.</string>
+		<key>url</key>
+		<string>http://www.google.com</string>
+		<key>imagePath</key>
+		<string>gray</string>
+		<key>stepImages</key>
+		<array>
+			<string>stepImage1.png</string>
+			<string>stepImage2.png</string>
+		</array>
+	</dict>
+</array>
+</plist>

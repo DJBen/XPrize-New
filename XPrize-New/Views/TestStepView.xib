@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="14A386a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="FreigSanProBook.otf">
+            <string>FreightSansProBook-Regular</string>
+        </mutableArray>
+        <mutableArray key="FreigSanProMed.otf">
+            <string>FreightSansProMedium-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TestStepView" customModule="XPrize_New" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HPr-35-2ou">
+                    <rect key="frame" x="0.0" y="18" width="600" height="354"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="354" id="Vpd-wX-zML"/>
+                        <constraint firstAttribute="width" constant="600" id="hWa-1f-jRL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      STEP 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qh6-Eo-rOO">
+                    <rect key="frame" x="-20" y="387" width="160" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="2H9-BO-X9T"/>
+                        <constraint firstAttribute="width" constant="160" id="lLY-RY-R0R"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FreightSansProBook-Regular" family="FreightSans Pro" pointSize="22"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 1: Blah blah blah blah, lorem ipsum blah blah" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYd-oO-TnC">
+                    <rect key="frame" x="28" y="412" width="544" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="6kj-Sv-IC2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FreightSansProMedium-Regular" family="FreightSans Pro" pointSize="21"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailingMargin" secondItem="mYd-oO-TnC" secondAttribute="trailing" constant="20" id="APf-LQ-FPc"/>
+                <constraint firstAttribute="centerX" secondItem="HPr-35-2ou" secondAttribute="centerX" id="Ie4-5x-3XX"/>
+                <constraint firstItem="Qh6-Eo-rOO" firstAttribute="top" secondItem="HPr-35-2ou" secondAttribute="bottom" constant="15" id="NgJ-2v-3uw"/>
+                <constraint firstAttribute="bottomMargin" secondItem="mYd-oO-TnC" secondAttribute="bottom" id="fcU-jK-UoQ"/>
+                <constraint firstItem="mYd-oO-TnC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="20" id="ipX-Ka-1Rf"/>
+                <constraint firstItem="mYd-oO-TnC" firstAttribute="top" secondItem="HPr-35-2ou" secondAttribute="bottom" constant="40" id="qop-2I-Crc"/>
+                <constraint firstItem="Qh6-Eo-rOO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-20" id="wpo-bM-cD7"/>
+            </constraints>
+            <connections>
+                <outlet property="descriptionLabel" destination="mYd-oO-TnC" id="QZr-hG-SC7"/>
+                <outlet property="imageHeightConstraint" destination="Vpd-wX-zML" id="9s6-Hx-GbX"/>
+                <outlet property="imageView" destination="HPr-35-2ou" id="xEc-56-pfs"/>
+                <outlet property="imageWidthConstraint" destination="hWa-1f-jRL" id="LSh-sK-mHS"/>
+                <outlet property="stepCounterLabel" destination="Qh6-Eo-rOO" id="aRV-7J-vps"/>
+                <outlet property="stepCounterLabelWidthConstraint" destination="lLY-RY-R0R" id="78t-wI-WTj"/>
+            </connections>
+        </view>
+    </objects>
+</document>

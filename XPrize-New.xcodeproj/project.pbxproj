@@ -7,8 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21DE45F7CF21444DB3E5EF92 /* libPods-XPrize-New.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C87FB0F7D408383074AEF /* libPods-XPrize-New.a */; };
+		F42F609119B55DF5007F0042 /* SearchSymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F609019B55DF5007F0042 /* SearchSymptomsViewController.swift */; };
+		F42F609519B57F22007F0042 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F609419B57F22007F0042 /* NavigationController.swift */; };
+		F431B72019DB3DB900D31F44 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431B71F19DB3DB900D31F44 /* Alamofire.swift */; };
+		F44269DC19EB1BC300129262 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = F44269DA19EB1BC300129262 /* BLE.m */; };
+		F44269DF19EB1C4B00129262 /* BLEConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F44269DE19EB1C4B00129262 /* BLEConnect.m */; };
+		F471A46119E0F00C00E4E874 /* TestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471A46019E0F00C00E4E874 /* TestDetailViewController.swift */; };
+		F471A46719E0F3E700E4E874 /* TestStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471A46619E0F3E700E4E874 /* TestStepView.swift */; };
+		F471A46919E0F3FC00E4E874 /* TestStepView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F471A46819E0F3FC00E4E874 /* TestStepView.xib */; };
+		F478EB3419E0A1B800DFBF6F /* DiagnoseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB2E19E0A1B800DFBF6F /* DiagnoseTest.swift */; };
+		F478EB3519E0A1B800DFBF6F /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB2F19E0A1B800DFBF6F /* Doctor.swift */; };
+		F478EB3619E0A1B800DFBF6F /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3019E0A1B800DFBF6F /* Style.swift */; };
+		F478EB3719E0A1B800DFBF6F /* Symptom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3119E0A1B800DFBF6F /* Symptom.swift */; };
+		F478EB3819E0A1B800DFBF6F /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3219E0A1B800DFBF6F /* TransitionAnimator.swift */; };
+		F478EB3919E0A1B800DFBF6F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3319E0A1B800DFBF6F /* User.swift */; };
+		F478EB4219E0A1E600DFBF6F /* EmptySymptomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3A19E0A1E600DFBF6F /* EmptySymptomTableViewCell.swift */; };
+		F478EB4319E0A1E600DFBF6F /* RoundIconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3B19E0A1E600DFBF6F /* RoundIconButtonView.swift */; };
+		F478EB4419E0A1E600DFBF6F /* SearchSymptomEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3C19E0A1E600DFBF6F /* SearchSymptomEmptyView.swift */; };
+		F478EB4519E0A1E600DFBF6F /* StylishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3D19E0A1E600DFBF6F /* StylishTableViewCell.swift */; };
+		F478EB4619E0A1E600DFBF6F /* SymptomSuggestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3E19E0A1E600DFBF6F /* SymptomSuggestionTableViewCell.swift */; };
+		F478EB4719E0A1E600DFBF6F /* SymptomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB3F19E0A1E600DFBF6F /* SymptomTableViewCell.swift */; };
+		F478EB4819E0A1E600DFBF6F /* TestItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F478EB4019E0A1E600DFBF6F /* TestItemTableViewCell.swift */; };
+		F478EB4919E0A1E600DFBF6F /* SymptomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F478EB4119E0A1E600DFBF6F /* SymptomTableViewCell.xib */; };
+		F478EB4E19E0A21F00DFBF6F /* FreigSanProBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = F478EB4A19E0A21F00DFBF6F /* FreigSanProBook.otf */; };
+		F478EB4F19E0A21F00DFBF6F /* FreigSanProLig.otf in Resources */ = {isa = PBXBuildFile; fileRef = F478EB4B19E0A21F00DFBF6F /* FreigSanProLig.otf */; };
+		F478EB5019E0A21F00DFBF6F /* FreigSanProMed.otf in Resources */ = {isa = PBXBuildFile; fileRef = F478EB4C19E0A21F00DFBF6F /* FreigSanProMed.otf */; };
+		F478EB5119E0A21F00DFBF6F /* lab_tests.plist in Resources */ = {isa = PBXBuildFile; fileRef = F478EB4D19E0A21F00DFBF6F /* lab_tests.plist */; };
+		F492A54C19C8DA3F00F9DD14 /* SearchSymptomsResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492A54B19C8DA3F00F9DD14 /* SearchSymptomsResultViewController.swift */; };
+		F49D261919DBB8B800B35370 /* SymptomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D261819DBB8B800B35370 /* SymptomDetailViewController.swift */; };
+		F4AE8A1519CF697C00F68FD8 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0819CF697C00F68FD8 /* Coefficients.swift */; };
+		F4AE8A1619CF697C00F68FD8 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0919CF697C00F68FD8 /* Compound.swift */; };
+		F4AE8A1719CF697C00F68FD8 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0A19CF697C00F68FD8 /* Dimension.swift */; };
+		F4AE8A1819CF697C00F68FD8 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0B19CF697C00F68FD8 /* Edge.swift */; };
+		F4AE8A1919CF697C00F68FD8 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0C19CF697C00F68FD8 /* Edges.swift */; };
+		F4AE8A1A19CF697C00F68FD8 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0D19CF697C00F68FD8 /* Expression.swift */; };
+		F4AE8A1C19CF697C00F68FD8 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A0F19CF697C00F68FD8 /* LayoutProxy.swift */; };
+		F4AE8A1D19CF697C00F68FD8 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A1019CF697C00F68FD8 /* Point.swift */; };
+		F4AE8A1E19CF697C00F68FD8 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A1119CF697C00F68FD8 /* Priority.swift */; };
+		F4AE8A1F19CF697C00F68FD8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A1219CF697C00F68FD8 /* Property.swift */; };
+		F4AE8A2019CF697C00F68FD8 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A1319CF697C00F68FD8 /* Size.swift */; };
+		F4AE8A2119CF697C00F68FD8 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AE8A1419CF697C00F68FD8 /* View.swift */; };
+		F4D0C4CF19DF33C40072102D /* TestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0C4CE19DF33C40072102D /* TestListViewController.swift */; };
 		F4F5C49119B3B0DC00C20A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5C49019B3B0DC00C20A98 /* AppDelegate.swift */; };
-		F4F5C49319B3B0DC00C20A98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5C49219B3B0DC00C20A98 /* ViewController.swift */; };
+		F4F5C49319B3B0DC00C20A98 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5C49219B3B0DC00C20A98 /* IntroViewController.swift */; };
 		F4F5C49619B3B0DC00C20A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F5C49419B3B0DC00C20A98 /* Main.storyboard */; };
 		F4F5C49819B3B0DC00C20A98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F5C49719B3B0DC00C20A98 /* Images.xcassets */; };
 		F4F5C4A419B3B0DC00C20A98 /* XPrize_NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F5C4A319B3B0DC00C20A98 /* XPrize_NewTests.swift */; };
@@ -24,11 +66,73 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F4F5C4F119B3C88500C20A98 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1DFE743B67204AEAAE3C069E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE71E7C237545DDB52045F4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4A425BCE6E384F5594BC4206 /* Pods-XPrize-New.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPrize-New.xcconfig"; path = "Pods/Pods-XPrize-New.xcconfig"; sourceTree = "<group>"; };
+		B12C87FB0F7D408383074AEF /* libPods-XPrize-New.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPrize-New.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F609019B55DF5007F0042 /* SearchSymptomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSymptomsViewController.swift; sourceTree = "<group>"; };
+		F42F609419B57F22007F0042 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F431B71F19DB3DB900D31F44 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		F44269D819EB1BC200129262 /* XPrize-New-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPrize-New-Bridging-Header.h"; sourceTree = "<group>"; };
+		F44269D919EB1BC300129262 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		F44269DA19EB1BC300129262 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		F44269DB19EB1BC300129262 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		F44269DD19EB1C4B00129262 /* BLEConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEConnect.h; sourceTree = "<group>"; };
+		F44269DE19EB1C4B00129262 /* BLEConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEConnect.m; sourceTree = "<group>"; };
+		F471A46019E0F00C00E4E874 /* TestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDetailViewController.swift; sourceTree = "<group>"; };
+		F471A46619E0F3E700E4E874 /* TestStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestStepView.swift; path = Views/TestStepView.swift; sourceTree = "<group>"; };
+		F471A46819E0F3FC00E4E874 /* TestStepView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestStepView.xib; path = Views/TestStepView.xib; sourceTree = "<group>"; };
+		F478EB2E19E0A1B800DFBF6F /* DiagnoseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiagnoseTest.swift; path = Models/DiagnoseTest.swift; sourceTree = "<group>"; };
+		F478EB2F19E0A1B800DFBF6F /* Doctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Doctor.swift; path = Models/Doctor.swift; sourceTree = "<group>"; };
+		F478EB3019E0A1B800DFBF6F /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Style.swift; path = Models/Style.swift; sourceTree = "<group>"; };
+		F478EB3119E0A1B800DFBF6F /* Symptom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Symptom.swift; path = Models/Symptom.swift; sourceTree = "<group>"; };
+		F478EB3219E0A1B800DFBF6F /* TransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = Models/TransitionAnimator.swift; sourceTree = "<group>"; };
+		F478EB3319E0A1B800DFBF6F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		F478EB3A19E0A1E600DFBF6F /* EmptySymptomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmptySymptomTableViewCell.swift; path = Views/EmptySymptomTableViewCell.swift; sourceTree = "<group>"; };
+		F478EB3B19E0A1E600DFBF6F /* RoundIconButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundIconButtonView.swift; path = Views/RoundIconButtonView.swift; sourceTree = "<group>"; };
+		F478EB3C19E0A1E600DFBF6F /* SearchSymptomEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchSymptomEmptyView.swift; path = Views/SearchSymptomEmptyView.swift; sourceTree = "<group>"; };
+		F478EB3D19E0A1E600DFBF6F /* StylishTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StylishTableViewCell.swift; path = Views/StylishTableViewCell.swift; sourceTree = "<group>"; };
+		F478EB3E19E0A1E600DFBF6F /* SymptomSuggestionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomSuggestionTableViewCell.swift; path = Views/SymptomSuggestionTableViewCell.swift; sourceTree = "<group>"; };
+		F478EB3F19E0A1E600DFBF6F /* SymptomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SymptomTableViewCell.swift; path = Views/SymptomTableViewCell.swift; sourceTree = "<group>"; };
+		F478EB4019E0A1E600DFBF6F /* TestItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestItemTableViewCell.swift; path = Views/TestItemTableViewCell.swift; sourceTree = "<group>"; };
+		F478EB4119E0A1E600DFBF6F /* SymptomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SymptomTableViewCell.xib; path = Views/SymptomTableViewCell.xib; sourceTree = "<group>"; };
+		F478EB4A19E0A21F00DFBF6F /* FreigSanProBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FreigSanProBook.otf; path = Assets/FreigSanProBook.otf; sourceTree = "<group>"; };
+		F478EB4B19E0A21F00DFBF6F /* FreigSanProLig.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FreigSanProLig.otf; path = Assets/FreigSanProLig.otf; sourceTree = "<group>"; };
+		F478EB4C19E0A21F00DFBF6F /* FreigSanProMed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FreigSanProMed.otf; path = Assets/FreigSanProMed.otf; sourceTree = "<group>"; };
+		F478EB4D19E0A21F00DFBF6F /* lab_tests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = lab_tests.plist; path = Assets/lab_tests.plist; sourceTree = "<group>"; };
+		F492A54B19C8DA3F00F9DD14 /* SearchSymptomsResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSymptomsResultViewController.swift; sourceTree = "<group>"; };
+		F49D261819DBB8B800B35370 /* SymptomDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomDetailViewController.swift; sourceTree = "<group>"; };
+		F4AE8A0819CF697C00F68FD8 /* Coefficients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coefficients.swift; sourceTree = "<group>"; };
+		F4AE8A0919CF697C00F68FD8 /* Compound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
+		F4AE8A0A19CF697C00F68FD8 /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		F4AE8A0B19CF697C00F68FD8 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		F4AE8A0C19CF697C00F68FD8 /* Edges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edges.swift; sourceTree = "<group>"; };
+		F4AE8A0D19CF697C00F68FD8 /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		F4AE8A0F19CF697C00F68FD8 /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
+		F4AE8A1019CF697C00F68FD8 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		F4AE8A1119CF697C00F68FD8 /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		F4AE8A1219CF697C00F68FD8 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		F4AE8A1319CF697C00F68FD8 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		F4AE8A1419CF697C00F68FD8 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		F4D0C4CE19DF33C40072102D /* TestListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestListViewController.swift; sourceTree = "<group>"; };
 		F4F5C48B19B3B0DC00C20A98 /* XPrize-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XPrize-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F5C48F19B3B0DC00C20A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F5C49019B3B0DC00C20A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4F5C49219B3B0DC00C20A98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4F5C49219B3B0DC00C20A98 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		F4F5C49519B3B0DC00C20A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4F5C49719B3B0DC00C20A98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4F5C49D19B3B0DC00C20A98 /* XPrize-NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XPrize-NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21DE45F7CF21444DB3E5EF92 /* libPods-XPrize-New.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +159,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9597EDE6027421E90A4F67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DFE743B67204AEAAE3C069E /* libPods.a */,
+				B12C87FB0F7D408383074AEF /* libPods-XPrize-New.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F44269D719EB1BB000129262 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				F44269DD19EB1C4B00129262 /* BLEConnect.h */,
+				F44269DE19EB1C4B00129262 /* BLEConnect.m */,
+				F44269D919EB1BC300129262 /* BLE.h */,
+				F44269DA19EB1BC300129262 /* BLE.m */,
+				F44269DB19EB1BC300129262 /* BLEDefines.h */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
+		F4AE8A0619CF697C00F68FD8 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				F4AE8A0819CF697C00F68FD8 /* Coefficients.swift */,
+				F4AE8A0919CF697C00F68FD8 /* Compound.swift */,
+				F4AE8A0A19CF697C00F68FD8 /* Dimension.swift */,
+				F4AE8A0B19CF697C00F68FD8 /* Edge.swift */,
+				F4AE8A0C19CF697C00F68FD8 /* Edges.swift */,
+				F4AE8A0D19CF697C00F68FD8 /* Expression.swift */,
+				F4AE8A0F19CF697C00F68FD8 /* LayoutProxy.swift */,
+				F4AE8A1019CF697C00F68FD8 /* Point.swift */,
+				F4AE8A1119CF697C00F68FD8 /* Priority.swift */,
+				F4AE8A1219CF697C00F68FD8 /* Property.swift */,
+				F4AE8A1319CF697C00F68FD8 /* Size.swift */,
+				F4AE8A1419CF697C00F68FD8 /* View.swift */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		F4D0C4D019DF33CF0072102D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F478EB2E19E0A1B800DFBF6F /* DiagnoseTest.swift */,
+				F478EB2F19E0A1B800DFBF6F /* Doctor.swift */,
+				F478EB3019E0A1B800DFBF6F /* Style.swift */,
+				F478EB3119E0A1B800DFBF6F /* Symptom.swift */,
+				F478EB3219E0A1B800DFBF6F /* TransitionAnimator.swift */,
+				F478EB3319E0A1B800DFBF6F /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F4D0C4D119DF33D60072102D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F478EB3A19E0A1E600DFBF6F /* EmptySymptomTableViewCell.swift */,
+				F478EB3B19E0A1E600DFBF6F /* RoundIconButtonView.swift */,
+				F478EB3C19E0A1E600DFBF6F /* SearchSymptomEmptyView.swift */,
+				F478EB3D19E0A1E600DFBF6F /* StylishTableViewCell.swift */,
+				F478EB3E19E0A1E600DFBF6F /* SymptomSuggestionTableViewCell.swift */,
+				F478EB3F19E0A1E600DFBF6F /* SymptomTableViewCell.swift */,
+				F478EB4019E0A1E600DFBF6F /* TestItemTableViewCell.swift */,
+				F478EB4119E0A1E600DFBF6F /* SymptomTableViewCell.xib */,
+				F471A46619E0F3E700E4E874 /* TestStepView.swift */,
+				F471A46819E0F3FC00E4E874 /* TestStepView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		F4F5C48219B3B0DC00C20A98 = {
 			isa = PBXGroup;
 			children = (
 				F4F5C48D19B3B0DC00C20A98 /* XPrize-New */,
 				F4F5C4A019B3B0DC00C20A98 /* XPrize-NewTests */,
 				F4F5C48C19B3B0DC00C20A98 /* Products */,
+				3DE71E7C237545DDB52045F4 /* Pods.xcconfig */,
+				C9597EDE6027421E90A4F67E /* Frameworks */,
+				4A425BCE6E384F5594BC4206 /* Pods-XPrize-New.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,8 +254,16 @@
 			isa = PBXGroup;
 			children = (
 				F4F5C49019B3B0DC00C20A98 /* AppDelegate.swift */,
-				F4F5C49219B3B0DC00C20A98 /* ViewController.swift */,
+				F42F609419B57F22007F0042 /* NavigationController.swift */,
+				F4F5C49219B3B0DC00C20A98 /* IntroViewController.swift */,
+				F42F609019B55DF5007F0042 /* SearchSymptomsViewController.swift */,
+				F492A54B19C8DA3F00F9DD14 /* SearchSymptomsResultViewController.swift */,
+				F49D261819DBB8B800B35370 /* SymptomDetailViewController.swift */,
+				F4D0C4CE19DF33C40072102D /* TestListViewController.swift */,
+				F471A46019E0F00C00E4E874 /* TestDetailViewController.swift */,
 				F4F5C49419B3B0DC00C20A98 /* Main.storyboard */,
+				F4D0C4D119DF33D60072102D /* Views */,
+				F4D0C4D019DF33CF0072102D /* Models */,
 				F4F5C49719B3B0DC00C20A98 /* Images.xcassets */,
 				F4F5C48E19B3B0DC00C20A98 /* Supporting Files */,
 			);
@@ -87,6 +273,14 @@
 		F4F5C48E19B3B0DC00C20A98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F478EB4A19E0A21F00DFBF6F /* FreigSanProBook.otf */,
+				F478EB4B19E0A21F00DFBF6F /* FreigSanProLig.otf */,
+				F478EB4C19E0A21F00DFBF6F /* FreigSanProMed.otf */,
+				F44269D819EB1BC200129262 /* XPrize-New-Bridging-Header.h */,
+				F478EB4D19E0A21F00DFBF6F /* lab_tests.plist */,
+				F431B71F19DB3DB900D31F44 /* Alamofire.swift */,
+				F44269D719EB1BB000129262 /* BLE */,
+				F4AE8A0619CF697C00F68FD8 /* Cartography */,
 				F4F5C48F19B3B0DC00C20A98 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4F5C4A719B3B0DC00C20A98 /* Build configuration list for PBXNativeTarget "XPrize-New" */;
 			buildPhases = (
+				87A4533ECFF541F18A015157 /* Check Pods Manifest.lock */,
 				F4F5C48719B3B0DC00C20A98 /* Sources */,
 				F4F5C48819B3B0DC00C20A98 /* Frameworks */,
 				F4F5C48919B3B0DC00C20A98 /* Resources */,
+				F4F5C4F119B3C88500C20A98 /* Embed Frameworks */,
+				4AD561D48B6F44D4B799AD57 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,8 +386,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F471A46919E0F3FC00E4E874 /* TestStepView.xib in Resources */,
+				F478EB4F19E0A21F00DFBF6F /* FreigSanProLig.otf in Resources */,
+				F478EB4919E0A1E600DFBF6F /* SymptomTableViewCell.xib in Resources */,
+				F478EB5119E0A21F00DFBF6F /* lab_tests.plist in Resources */,
+				F478EB5019E0A21F00DFBF6F /* FreigSanProMed.otf in Resources */,
 				F4F5C49619B3B0DC00C20A98 /* Main.storyboard in Resources */,
 				F4F5C49819B3B0DC00C20A98 /* Images.xcassets in Resources */,
+				F478EB4E19E0A21F00DFBF6F /* FreigSanProBook.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,13 +406,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AD561D48B6F44D4B799AD57 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-XPrize-New-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A4533ECFF541F18A015157 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4F5C48719B3B0DC00C20A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4F5C49319B3B0DC00C20A98 /* ViewController.swift in Sources */,
+				F42F609119B55DF5007F0042 /* SearchSymptomsViewController.swift in Sources */,
+				F471A46119E0F00C00E4E874 /* TestDetailViewController.swift in Sources */,
+				F4AE8A1719CF697C00F68FD8 /* Dimension.swift in Sources */,
+				F44269DC19EB1BC300129262 /* BLE.m in Sources */,
+				F4AE8A2019CF697C00F68FD8 /* Size.swift in Sources */,
+				F492A54C19C8DA3F00F9DD14 /* SearchSymptomsResultViewController.swift in Sources */,
+				F478EB4219E0A1E600DFBF6F /* EmptySymptomTableViewCell.swift in Sources */,
+				F478EB3519E0A1B800DFBF6F /* Doctor.swift in Sources */,
+				F478EB3619E0A1B800DFBF6F /* Style.swift in Sources */,
+				F431B72019DB3DB900D31F44 /* Alamofire.swift in Sources */,
+				F478EB4419E0A1E600DFBF6F /* SearchSymptomEmptyView.swift in Sources */,
+				F4AE8A1A19CF697C00F68FD8 /* Expression.swift in Sources */,
+				F478EB4619E0A1E600DFBF6F /* SymptomSuggestionTableViewCell.swift in Sources */,
+				F4AE8A1F19CF697C00F68FD8 /* Property.swift in Sources */,
+				F4AE8A1619CF697C00F68FD8 /* Compound.swift in Sources */,
+				F4F5C49319B3B0DC00C20A98 /* IntroViewController.swift in Sources */,
+				F478EB4819E0A1E600DFBF6F /* TestItemTableViewCell.swift in Sources */,
+				F4AE8A1E19CF697C00F68FD8 /* Priority.swift in Sources */,
+				F471A46719E0F3E700E4E874 /* TestStepView.swift in Sources */,
+				F4AE8A1D19CF697C00F68FD8 /* Point.swift in Sources */,
+				F4AE8A2119CF697C00F68FD8 /* View.swift in Sources */,
+				F478EB4719E0A1E600DFBF6F /* SymptomTableViewCell.swift in Sources */,
+				F478EB3819E0A1B800DFBF6F /* TransitionAnimator.swift in Sources */,
 				F4F5C49119B3B0DC00C20A98 /* AppDelegate.swift in Sources */,
+				F4D0C4CF19DF33C40072102D /* TestListViewController.swift in Sources */,
+				F44269DF19EB1C4B00129262 /* BLEConnect.m in Sources */,
+				F478EB3719E0A1B800DFBF6F /* Symptom.swift in Sources */,
+				F478EB3919E0A1B800DFBF6F /* User.swift in Sources */,
+				F42F609519B57F22007F0042 /* NavigationController.swift in Sources */,
+				F4AE8A1C19CF697C00F68FD8 /* LayoutProxy.swift in Sources */,
+				F4AE8A1519CF697C00F68FD8 /* Coefficients.swift in Sources */,
+				F49D261919DBB8B800B35370 /* SymptomDetailViewController.swift in Sources */,
+				F478EB4319E0A1E600DFBF6F /* RoundIconButtonView.swift in Sources */,
+				F4AE8A1919CF697C00F68FD8 /* Edges.swift in Sources */,
+				F478EB3419E0A1B800DFBF6F /* DiagnoseTest.swift in Sources */,
+				F478EB4519E0A1E600DFBF6F /* StylishTableViewCell.swift in Sources */,
+				F4AE8A1819CF697C00F68FD8 /* Edge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,23 +593,38 @@
 		};
 		F4F5C4A819B3B0DC00C20A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A425BCE6E384F5594BC4206 /* Pods-XPrize-New.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPrize-New",
+				);
 				INFOPLIST_FILE = "XPrize-New/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XPrize-New/XPrize-New-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F4F5C4A919B3B0DC00C20A98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A425BCE6E384F5594BC4206 /* Pods-XPrize-New.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XPrize-New",
+				);
 				INFOPLIST_FILE = "XPrize-New/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XPrize-New/XPrize-New-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -395,6 +681,7 @@
 				F4F5C4A919B3B0DC00C20A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F5C4AA19B3B0DC00C20A98 /* Build configuration list for PBXNativeTarget "XPrize-NewTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +690,7 @@
 				F4F5C4AC19B3B0DC00C20A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
